@@ -1,0 +1,128 @@
+
+body{
+	margin:0;
+	background-color: #E6DADD;
+	color:#201F1E;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1{
+text-transform: uppercase;
+font-size:40px;
+padding-top: 150px;
+}
+
+h3{
+font-weight:lighter;
+padding-bottom: 15px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul>li {
+    display: inline;
+    padding-top: 50px;
+    padding: 30px;
+}
+
+a:link {
+ color:white;
+ text-decoration: none;
+ padding-left: 15px;
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+ padding-left: 15px;
+}
+
+.banner-image{
+	background-image:linear-gradient(to bottom, rgba(118, 56, 71, 0.42), rgba(117, 19, 93, 0.53)),url('landing_images/cowomen1.jpg');
+	height: 400px;
+	width: 100%;
+ 	background-size: cover;
+ 	color: white;
+ 	text-align: center;
+ 	padding-top:50px;
+ 	padding-bottom: 25px;
+ 	box-shadow: 10px 5px 5px #824A57;
+ 	position:relative;
+}
+
+.enter_button {
+	border-radius:15px;
+	font-size: 20px;
+	height: 40px;
+	width: 30px;
+	background-color: rgba(117, 19, 93, 1);
+	padding:10px;
+	text-decoration: none;
+	color:#A51C30;
+}
+
+.enter_button:hover {
+  	background-color: #B8C4BB;
+}
+
+.icon:hover{
+	background-color:color: rgb(217,200,204,0.7);;
+	border-radius:25px;
+	padding:20px;
+}
+
+
+.flex_container_parent{
+	height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex_container_child{
+	display:flex;
+	flex-direction:row;
+}
+
+.flex_box{
+	flex: 1 1 160px;
+	background-image:linear-gradient(to right, rgba(118, 56, 71, 0), rgb(192,164,171,0.2));
+	padding: 50px;
+	padding-top:60px;
+	text-align: center;
+	margin: 30px;
+	box-shadow: 10px 5px 5px rgb(192,164,171,0.3);
+	background-color: rgba(118, 56, 71, 0.42)
+	width: 40px;
+	border-radius: 15px;
+}
+
+.footer{
+	color:white;
+	background-color: #C0A4AB;
+	text-align: left;
+	height: 90px;
+	width:100%;
+	display-content:inline-block;
+	background-image:linear-gradient(to right, rgba(118, 56, 71, 0), rgb(192,164,171,0.2))
+}
+
+.topnav{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	text-decoration: none;
+}
+
+input{
+	border-radius: 5px;
+	width: 100px;
+	color:#201F1E;
+	font-family: 'Nunito', sans-serif;
+}
+
+
+
